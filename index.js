@@ -8,6 +8,6 @@ function  map(sourceArray,callBack) {
  return  newArr
 }
 
-function usingCb(map,){
+function usingCb(map){
  map()
 }
