@@ -5,7 +5,7 @@ function  map(sourceArray,callBack) {
     let inst = sourceArray[i]
     newArr.push(callBack(inst))   
   }
- return  newArr
+ return newArr
 }
 
 function usingCb(map){
